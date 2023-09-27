@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Netflix font';
+    src: url('fonts/NetflixSans-Regular.otf') format('opentype'), url('fonts/NetflixSans-Medium.otf') format('opentype'), url('fonts/NetflixSans-Light.otf') format('opentype'), url('fonts/NetflixSans-Bold.otf') format('opentype');
+}
+
+body{
+    margin: 0px;
+    padding-top: 56px;
+    background-color: #181818;
+}
+
+ul{
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    z-index: 1;
+}
+
+#seriesefilmes{
+    color: #FFFFF0;
+    position: absolute;
+    left: 871px;
+    top: 21px;
+    font-size: 13px;
+    font-family: 'Netflix font';
+    font-weight: light;
+}
+
+#assine{
+    color: #FFFFF0;
+    background-color: #f40612;
+    height: 33px;
+    width: 157px;
+    position: absolute;
+    left: 1065px;
+    top: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Netflix font';
+    font-weight: light;
+    border-radius: 2px;
+}
+
+#entrar{
+    color: #FFFFF0;
+    background-color: black;
+    border: 1px solid;
+    border-color: #888888;
+    border-radius: 2px;
+    height: 31px;
+    width: 77px;
+    position: absolute;
+    left: 1230px;
+    top: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Netflix font';
+    font-weight: light; 
+}
+
+#logo-netflix{
+    position: absolute;
+    left: 40px;
+    top: 13px;
+    height: 30px;
+    width: 110px;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plano-de-fundo{
+    position: relative;
+    left: 6%; 
+    
+    min-width: 600px;
+}
+
+#suits-grande{
+    position: absolute;
+    left: 70px;
+    top: 193px;
+    height: 121px;
+    width: 448px;
+
+}
+
+#suits-pequeno{
+    position: absolute;
+    left: 70px;
+    top: 375px;
+    color: #FFFFF0;
+    font-size: 24px;
+    font-family: 'Netflix font';
+    font-weight: bolder;
+}
+
+#detalhes-serie{
+    position: absolute;
+    left: 70px;
+    top: 421px;
+    color: #A1A1A1;
+    font-size: 14px;
+    font-family: 'Netflix font';
+    font-weight: light;
+}
+
+#faixa-etaria{
+    position: absolute;
+    background-color: #181818;
+    left: 123px;
+    top: 418px;
+    color: #A1A1A1;
+    border: 1px solid;
+    border-color: #888888;
+    border-radius: 2px;
+    height: 20px;
+    width: 29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Netflix font';
+    font-weight: light;
+}
+#mais-detalhes{
+    position: absolute;
+    left: 162px;
+    top: 421px;
+    color: #A1A1A1;
+    font-size: 14px;
+    font-family: 'Netflix font';
+    font-weight: light;
+}
+
+#descricao-serie{
+    position: absolute;
+    left: 70px;
+    top: 464px;
+    color: #FFFFF0;
+    font-size: 16px;
+    font-family: 'Netflix font';
+    font-weight: light;
+    padding-right: 760px;
+}
+
+#elenco{
+    position: absolute;
+    left: 70px;
+    top: 545px;
+    color: #FFFFF0;
+    font-size: 16px;
+    font-family: 'Netflix font';
+    font-weight: light;
+    padding-right: 755px;
+}
+.destaque{
+    color: #A1A1A1;
+}
+
+#criacao{
+    position: absolute;
+    left: 70px;
+    top: 568px;
+    color: #FFFFF0;
+    font-size: 16px;
+    font-family: 'Netflix font';
+    font-weight: light;
+    padding-right: 755px;
+}
